@@ -15,6 +15,8 @@
 # limitations under the License.
 #
 
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 PLATFORM_PATH := device/cyanogen/msm8916-common
 
 # Platform
