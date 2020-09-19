@@ -144,8 +144,10 @@ endif
 TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib64/libflp.so|libshims_flp.so \
     /system/vendor/lib64/libizat_core.so|libshims_get_process_name.so \
+    /system/vendor/lib64/libril-qc-qmi-1.so|libaudioclient_shim.so \
     /system/vendor/lib/libflp.so|libshims_flp.so \
-    /system/vendor/lib/libizat_core.so|libshims_get_process_name.so
+    /system/vendor/lib/libizat_core.so|libshims_get_process_name.so \
+    /system/vendor/lib/libril-qc-qmi-1.so|libaudioclient_shim.so
 
 # Vintf
 PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
